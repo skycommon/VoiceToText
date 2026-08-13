@@ -1,0 +1,26 @@
+# 第三方依赖（本地安装，不入库）
+pylibs/
+
+# 构建产物
+dist/
+build/
+*.exe
+*.spec.bak
+
+# InnoSetup 安装器二进制（仅脚本入库）
+tools/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 运行期日志
+crash.log
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 发布用的临时 zip（单独作为 release 资源）
+release/
