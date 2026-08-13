@@ -1,5 +1,13 @@
 # 语音转文字 VoiceToText（Windows）
 
+[![GitHub release](https://img.shields.io/github/v/release/skycommon/VoiceToText)](https://github.com/skycommon/VoiceToText/releases)
+[![GitHub downloads](https://img.shields.io/github/downloads/skycommon/VoiceToText/total)](https://github.com/skycommon/VoiceToText/releases)
+[![Platform](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/skycommon/VoiceToText)
+
+> **下载**：前往 [Releases](https://github.com/skycommon/VoiceToText/releases) 下载 `VoiceToText-1.0.0-windows.zip`，解压后双击 `VoiceToText-Setup-1.0.0.exe` 安装即可。
+
+**English documentation**: [README_EN.md](README_EN.md)
+
 本地轻量 GUI，录音 / 选音频文件 → 线上高精度识别 → 文字实时显示、可复制、可导出 `txt` / `srt` 字幕。
 面向**上课录音、开会录音**场景：内置本地降噪增强（频谱门控 + 高通去环境隆隆声），支持**说话人分离**（区分谁在说话），并可将同一段音频同时转写成**简体中文 + 英文两份独立文件**。
 本地只跑界面、录音与降噪，识别走线上服务，所以安装包体积小（约 27 MB），中文识别精度高。
