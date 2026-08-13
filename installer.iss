@@ -1,7 +1,7 @@
 ; VoiceToText 安装脚本 — Inno Setup 7
-; 编译: iscc installer.iss  ->  输出 dist\VoiceToText-Setup-1.0.0.exe
+; 编译: iscc installer.iss  ->  输出 dist\VoiceToText-Setup-1.0.1.exe
 #define MyAppName "语音转文字 VoiceToText"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "1.0.1"
 #define MyAppPublisher "Local"
 #define MyAppURL "https://github.com/"
 #define MyAppExeName "VoiceToText.exe"

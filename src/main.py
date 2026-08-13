@@ -17,7 +17,7 @@ from backends import make_backend, backend_supports_diarization
 import i18n
 
 APP_NAME = "语音转文字"
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 
 def _crash_log(extype, value, tb):

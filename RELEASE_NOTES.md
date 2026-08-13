@@ -1,6 +1,13 @@
-# VoiceToText v1.0.0 发布说明
+# VoiceToText v1.0.1 发布说明
 
 本地轻量 Windows 应用：录音 / 选择音频文件 → 线上高精度识别 → 文字实时显示、复制、导出 `txt` / `srt` 字幕。面向**上课录音、开会录音**场景。
+
+## 更新内容（v1.0.1）
+- 版本号升至 **1.0.1**。
+- 仓库文档完善：README 顶部新增版本 / 下载量 / 平台徽章与下载链接，并新增完整英文文档 `README_EN.md`。
+- 累积包含此前修复：设置窗口可自由拖动、复选框显示正常对号、按所选后端只显示对应 Key 输入框、启动/运行崩溃日志（`crash.log`）。
+
+
 
 ## 主要功能
 
@@ -13,7 +20,7 @@
 
 ## 安装
 
-下载 Release 中的 `VoiceToText-1.0.0-windows.zip`，解压得到 `VoiceToText-Setup-1.0.0.exe`，双击按向导安装（默认装到用户程序目录，无需管理员权限，会创建开始菜单与桌面快捷方式）。
+下载 Release 中的 `VoiceToText-1.0.1-windows.zip`，解压得到 `VoiceToText-Setup-1.0.1.exe`，双击按向导安装（默认装到用户程序目录，无需管理员权限，会创建开始菜单与桌面快捷方式）。
 
 > 若首次启动提示缺少 `vcruntime140.dll` 等运行库，请安装
 > [Visual C++ 2015–2022 运行库](https://learn.microsoft.com/zh-CN/cpp/windows/latest-supported-vc-redist)。

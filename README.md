@@ -4,7 +4,7 @@
 [![GitHub downloads](https://img.shields.io/github/downloads/skycommon/VoiceToText/total)](https://github.com/skycommon/VoiceToText/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/skycommon/VoiceToText)
 
-> **下载**：前往 [Releases](https://github.com/skycommon/VoiceToText/releases) 下载 `VoiceToText-1.0.0-windows.zip`，解压后双击 `VoiceToText-Setup-1.0.0.exe` 安装即可。
+> **下载**：前往 [Releases](https://github.com/skycommon/VoiceToText/releases) 下载 `VoiceToText-1.0.1-windows.zip`，解压后双击 `VoiceToText-Setup-1.0.1.exe` 安装即可。
 
 **English documentation**: [README_EN.md](README_EN.md)
 
@@ -14,7 +14,7 @@
 
 ## 一、安装
 
-- **安装包（推荐，Release 中提供）**：下载 Release 里的 `VoiceToText-1.0.0-windows.zip`，解压得到 `VoiceToText-Setup-1.0.0.exe`，双击按向导安装（默认装到用户程序目录，无需管理员权限）。会创建开始菜单与桌面快捷方式。
+- **安装包（推荐，Release 中提供）**：下载 Release 里的 `VoiceToText-1.0.1-windows.zip`，解压得到 `VoiceToText-Setup-1.0.1.exe`，双击按向导安装（默认装到用户程序目录，无需管理员权限）。会创建开始菜单与桌面快捷方式。
 - 也可自行从源码构建（见「六、重新打包」），构建产物位于 `dist\`。
 
 > 若首次启动报错“缺少 vcruntime140.dll / api-ms-win-crt-*.dll”，请安装
@@ -84,7 +84,7 @@ D:\VoiceToText\
 │  └─ app_icon.ico     # 应用图标
 ├─ dist\
 │  ├─ VoiceToText\                      # 文件夹版（onedir）构建产物
-│  └─ VoiceToText-Setup-1.0.0.exe       # 安装包（由 installer.iss 生成）
+│  └─ VoiceToText-Setup-1.0.1.exe       # 安装包（由 installer.iss 生成）
 ├─ installer.iss       # Inno Setup 安装脚本
 ├─ VoiceToText_onedir.spec   # 文件夹版打包配置
 ├─ VoiceToText_console.spec  # 控制台诊断版打包配置
