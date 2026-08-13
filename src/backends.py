@@ -1,4 +1,4 @@
-"""三个线上识别后端，统一接口 transcribe(wav_bytes, language, progress_cb) -> str"""
+"""四个线上识别后端（讯飞听写 / 讯飞转写 / 百度语音 / OpenAI），统一接口 transcribe(wav_bytes, language, progress_cb) -> str"""
 import io
 import json
 import base64
